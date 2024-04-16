@@ -1,0 +1,18 @@
+.history__section {
+  min-height: 100vh;
+  padding: 2rem 9%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.history__desc {
+  line-height: 1.5;
+  font-size: 1.25rem;
+}
+
+.history__title {
+  font-size: 3rem;
+  text-align: right;
+  margin-bottom: 2rem;
+}

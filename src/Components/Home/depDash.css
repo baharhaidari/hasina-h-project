@@ -1,0 +1,36 @@
+.home__section {
+  min-height: 100vh;
+  padding: 10rem 9% 2rem 9%;
+}
+
+.filter__control {
+  margin-bottom: 2rem;
+}
+
+.filter__label {
+  font-size: 1.4rem;
+  margin-left: 0.5rem;
+}
+
+.dep__options,
+.year__options,
+.teacher__options {
+  font-size: 1.5rem;
+  padding: 0.1rem 0.2rem;
+  margin-left: 2rem;
+}
+
+.filters__wrapper {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .home__section {
+    padding: 2rem 9%;
+    min-height: 40vh;
+  }
+
+  iframe {
+    height: 250px;
+  }
+}

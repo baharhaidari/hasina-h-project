@@ -1,0 +1,81 @@
+.groups__section {
+  min-height: 100vh;
+  padding: 2rem 9%;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.groups__subtitle {
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+}
+
+.groups__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.groups__container {
+  border: 2px solid gray;
+  border-radius: 10px;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  font-size: 1.4rem;
+  -webkit-box-shadow: 0px 10px 15px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 15px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 8px 11px -8px rgba(0, 0, 0, 0.75);
+  transition: all ease-in-out 0.3s;
+}
+
+.Pimg__container img {
+  object-fit: cover;
+  width: 120px;
+  height: 120px;
+}
+
+.groups__container:hover {
+  transform: scale(1.02);
+}
+
+.groups__container p {
+  font-size: 1.3rem;
+  color: rgb(12, 121, 198);
+}
+
+.desc {
+  color: black;
+}
+
+.downloadCV__btn {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: black;
+}
+
+.majors__title {
+  font-size: 1.6rem;
+  margin: 2rem 0 0.5rem 0;
+}
+
+.activeMajors__list {
+  font-size: 1.3rem;
+  margin-right: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .groups__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .groups__container {
+    width: 100%;
+  }
+}

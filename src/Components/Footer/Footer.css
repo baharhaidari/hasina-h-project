@@ -1,0 +1,19 @@
+.footer {
+  background: rgb(20, 152, 182);
+  padding: 1rem 9%;
+  color: #fff;
+}
+
+.footer__title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.footer__text {
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+span {
+  margin-left: 1.5rem;
+}

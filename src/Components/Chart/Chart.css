@@ -1,0 +1,24 @@
+.chart__section {
+  min-height: 100vh;
+  padding: 2rem 9%;
+}
+
+.chart__title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.img__container img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .img__container {
+    width: 350px;
+  }
+
+  .chart__section {
+    min-height: 60vh;
+  }
+}
