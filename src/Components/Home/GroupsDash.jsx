@@ -91,7 +91,6 @@ export default function GroupDash() {
             <option value="pran">دکتر پرند</option>
             <option value="baqer">دکتر پورمحمدباقر</option>
             <option value="matin">دکتر متین فر</option>
-            <option value="khkh">دکتر خخ</option>
             <option value="faal">دکتر تیموری فعال</option>
           </select>
         </div>
